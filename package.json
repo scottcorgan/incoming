@@ -1,0 +1,30 @@
+{
+  "name": "incoming",
+  "version": "0.0.1",
+  "description": "Express-like server request helpers",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scottcorgan/incoming.git"
+  },
+  "keywords": [
+    "express",
+    "connect",
+    "request"
+  ],
+  "author": "Scott Corgan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scottcorgan/incoming/issues"
+  },
+  "homepage": "https://github.com/scottcorgan/incoming",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "supertest": "^0.13.0",
+    "mocha": "^1.20.1",
+    "connect": "^2.19.6"
+  }
+}
